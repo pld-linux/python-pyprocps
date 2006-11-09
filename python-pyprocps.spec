@@ -36,4 +36,3 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %{py_sitescriptdir}/*.py[co]
-%{py_sitescriptdir}/*-info
