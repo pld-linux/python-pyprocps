@@ -11,6 +11,7 @@ Source0:	http://eli.criffield.net/pyprocps/pyprocps-%{version}.tar.gz
 BuildRequires:	python-devel >= 2.2.1
 %pyrequires_eq	python
 URL:		http://eli.criffield.net/pyprocps/
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
