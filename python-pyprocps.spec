@@ -8,9 +8,10 @@ License:	PSF
 Group:		Libraries/Python
 Source0:	http://eli.criffield.net/pyprocps/pyprocps-%{version}.tar.gz
 # Source0-md5:	834f5954ee4904afbbee3f33cbeea62c
-BuildRequires:	python-devel >= 2.2.1
+BuildRequires:	python-devel >= 2.5
 %pyrequires_eq	python
 URL:		http://eli.criffield.net/pyprocps/
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
