@@ -1,7 +1,7 @@
 %define	module	pyprocps
 
 Summary:	Python module for gathering process information from /proc on Linux systems
-Summary(pl.UTF-8):   Moduł Pythona do zbierania informacji o procesach z linuksowego katalogu /proc
+Summary(pl.UTF-8):	Moduł Pythona do zbierania informacji o procesach z linuksowego katalogu /proc
 Name:		python-%{module}
 Version:	0.2
 Release:	1
