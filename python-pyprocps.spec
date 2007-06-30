@@ -3,12 +3,12 @@
 Summary:	Python module for gathering process information from /proc on Linux systems
 Summary(pl.UTF-8):	Moduł Pythona do zbierania informacji o procesach z linuksowego katalogu /proc
 Name:		python-%{module}
-Version:	0.2
+Version:	0.4
 Release:	1
 License:	PSF
 Group:		Libraries/Python
 Source0:	http://eli.criffield.net/pyprocps/pyprocps-%{version}.tar.gz
-# Source0-md5:	834f5954ee4904afbbee3f33cbeea62c
+# Source0-md5:	be7b45655285875bf782fff3e948040e
 BuildRequires:	python-devel >= 1:2.5
 %pyrequires_eq	python
 URL:		http://eli.criffield.net/pyprocps/
