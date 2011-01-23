@@ -10,6 +10,8 @@ Group:		Libraries/Python
 Source0:	http://eli.criffield.net/pyprocps/pyprocps-%{version}.tar.gz
 # Source0-md5:	be7b45655285875bf782fff3e948040e
 BuildRequires:	python-devel >= 1:2.5
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python
 URL:		http://eli.criffield.net/pyprocps/
 BuildArch:	noarch
