@@ -14,6 +14,7 @@ BuildRequires:	python-modules
 BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python
 URL:		http://eli.criffield.net/pyprocps/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
